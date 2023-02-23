@@ -1,0 +1,98 @@
+@media screen and (max-width: 768px) {
+
+	.header{
+		height: 100vh;
+		width: 200vh;
+		margin-left: -620px;
+	}
+
+	.header-title {
+	    font-family: 'Tinos', serif;
+	    color: #D67E35;
+	    text-align: center;
+	    position: absolute;
+	    font-size: 36px;
+	    margin-top: 200px;
+	    margin-left: 367px;
+	    white-space: nowrap;
+  		width: 20ch;
+	}
+
+	.header-subtitle{
+		color: #D67E35;
+		font-size: 52px;
+		line-height: 50px;
+	}
+
+	.btn2{
+		margin-top: 15px;
+	}
+
+	.header-suptitle:after{
+	position: absolute;
+	content: '';
+	height: 0px;
+	width: 0px;
+	background-color: #fff;
+	top: 160px;
+	left: 108px;
+
+	}
+
+	.Htext{
+	font-family: 'Open Sans', serif;
+	text-decoration: none;
+	font-size: 0px;
+	margin-left: 80px;
+	color: #fff;
+	font-weight: 700;
+	}
+
+	.cart{
+	margin-left: 160px;
+
+	border-right: 0px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+	}
+
+	.cart-img{
+	position: relative;
+	height: 0px;
+	top: 15px;
+    right: 6px;
+	}
+
+	.phone-img{
+		height: 0px;
+		right: 2px;
+		position: relative;
+
+	}
+
+	.number{
+		text-decoration: none;
+		margin-left: 4px;
+		color: #FFF;
+		font-weight: 700;
+		font-size: 0px;
+
+	}
+
+	.phone-text{
+	color: #FFF;
+	font-weight: 200;
+	font-size: 0px;
+	}
+
+	.button{
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 60px;
+	background-color:  #FF7400;
+	padding: 0px 0px;
+	font-weight: 700;
+	font-size: 0px;
+
+	}
+}
